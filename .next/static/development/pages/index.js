@@ -1,4 +1,4 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/nosotros.js"],{
+((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
 /***/ "./components/Master.js":
 /*!******************************!*\
@@ -6387,21 +6387,21 @@ module.exports = __webpack_require__(/*! ./dist/lib/head */ "./node_modules/next
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnosotros&absolutePagePath=%2FUsers%2FPablo%2FDocuments%2FUdemy%2FReact%2FProyectos%2Fbitcoinapp%2Fpages%2Fnosotros.js!./":
-/*!****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnosotros&absolutePagePath=%2FUsers%2FPablo%2FDocuments%2FUdemy%2FReact%2FProyectos%2Fbitcoinapp%2Fpages%2Fnosotros.js ***!
-  \****************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2FPablo%2FDocuments%2FUdemy%2FReact%2FProyectos%2Fbitcoinapp%2Fpages%2Findex.js!./":
+/*!*****************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2FPablo%2FDocuments%2FUdemy%2FReact%2FProyectos%2Fbitcoinapp%2Fpages%2Findex.js ***!
+  \*****************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/nosotros", function() {
-      var page = __webpack_require__(/*! ./pages/nosotros.js */ "./pages/nosotros.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
+      var page = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
       if(true) {
-        module.hot.accept(/*! ./pages/nosotros.js */ "./pages/nosotros.js", function() {
-          if(!next.router.components["/nosotros"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/nosotros.js */ "./pages/nosotros.js")
-          next.router.update("/nosotros", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
+          if(!next.router.components["/"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
+          next.router.update("/", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
@@ -11563,10 +11563,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/nosotros.js":
-/*!***************************!*\
-  !*** ./pages/nosotros.js ***!
-  \***************************/
+/***/ "./pages/index.js":
+/*!************************!*\
+  !*** ./pages/index.js ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11575,44 +11575,44 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Master__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Master */ "./components/Master.js");
-var _jsxFileName = "/Users/Pablo/Documents/Udemy/React/Proyectos/bitcoinapp/pages/nosotros.js";
+var _jsxFileName = "/Users/Pablo/Documents/Udemy/React/Proyectos/bitcoinapp/pages/index.js";
 
 
 
-var Nosotros = function Nosotros() {
+var Index = function Index() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Master__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
-  }, "hola desde nosotros")));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, "hola mundo")));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Nosotros);
+/* harmony default export */ __webpack_exports__["default"] = (Index);
 
 /***/ }),
 
-/***/ 1:
-/*!********************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fnosotros&absolutePagePath=%2FUsers%2FPablo%2FDocuments%2FUdemy%2FReact%2FProyectos%2Fbitcoinapp%2Fpages%2Fnosotros.js ***!
-  \********************************************************************************************************************************************************************/
+/***/ 2:
+/*!*********************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2FPablo%2FDocuments%2FUdemy%2FReact%2FProyectos%2Fbitcoinapp%2Fpages%2Findex.js ***!
+  \*********************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fnosotros&absolutePagePath=%2FUsers%2FPablo%2FDocuments%2FUdemy%2FReact%2FProyectos%2Fbitcoinapp%2Fpages%2Fnosotros.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnosotros&absolutePagePath=%2FUsers%2FPablo%2FDocuments%2FUdemy%2FReact%2FProyectos%2Fbitcoinapp%2Fpages%2Fnosotros.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2FPablo%2FDocuments%2FUdemy%2FReact%2FProyectos%2Fbitcoinapp%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2FPablo%2FDocuments%2FUdemy%2FReact%2FProyectos%2Fbitcoinapp%2Fpages%2Findex.js!./");
 
 
 /***/ }),
@@ -11628,5 +11628,5 @@ module.exports = dll_0f4ba55de2d76bf0f90b;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]));;
-//# sourceMappingURL=nosotros.js.map
+},[[2,"static/runtime/webpack.js"]]]));;
+//# sourceMappingURL=index.js.map
