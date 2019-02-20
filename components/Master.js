@@ -11,7 +11,9 @@ const MasterPage = (props) => (
 
 
         <Navegacion/>
-        {props.children}
+        <div className="container mt-4">
+            {props.children}
+        </div>
     </div>
 );
 
