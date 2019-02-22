@@ -17,9 +17,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Master__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Master */ "./components/Master.js");
 /* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! isomorphic-unfetch */ "./node_modules/isomorphic-unfetch/browser.js");
 /* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _components_Precio__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Precio */ "./components/Precio.js");
 
 
 var _jsxFileName = "/Users/Pablo/Documents/Udemy/React/Proyectos/bitcoinapp/pages/index.js";
+
 
 
 
@@ -28,44 +30,38 @@ var Index = function Index(props) {
   return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_Master__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 6
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     className: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 7
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     className: "col-12",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h2", {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
-  }, "Precio del Bitcoin"), console.log(props)), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-    className: "col-md-8",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 9
     },
     __self: this
-  }, "Noticias sobre Bitcoin")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-    className: "col-md-4",
+  }, "Precio del Bitcoin"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_Precio__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    precio: props.precioBitcoin,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "col-md-8",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
@@ -75,6 +71,19 @@ var Index = function Index(props) {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
+    },
+    __self: this
+  }, "Noticias sobre Bitcoin")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "col-md-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
     },
     __self: this
   }, "Pr\xF3ximos Eventos Bitcoin"))));
@@ -101,7 +110,7 @@ _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(f
         case 5:
           resPrecio = _context.sent;
           return _context.abrupt("return", {
-            precioBitcoin: resPrecio.data
+            precioBitcoin: resPrecio.data.quotes.EU
           });
 
         case 7:
@@ -116,4 +125,4 @@ _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(f
 /***/ })
 
 })
-//# sourceMappingURL=index.js.967e17ae91b6d99fa013.hot-update.js.map
+//# sourceMappingURL=index.js.481dac5a7efa6e2c84d9.hot-update.js.map

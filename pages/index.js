@@ -1,12 +1,15 @@
 import MasterPage from "../components/Master";
 import fetch from 'isomorphic-unfetch';
+import Precio from "../components/Precio";
 
 const Index = (props) => (
     <MasterPage>
         <div className="row">
             <div className="col-12">
                 <h2>Precio del Bitcoin</h2>
-                {console.log(props)}
+                <Precio
+                    precio={props.precioBitcoin}
+                />
             </div>
             <div className="col-md-8">
                 <h2>Noticias sobre Bitcoin</h2>
@@ -24,7 +27,7 @@ Index.getInitialProps = async () => {
     const resPrecio = await precio.json();
 
     return {
-        precioBitcoin: resPrecio.data
+        precioBitcoin: resPrecio.data.quotes.USD
     }
 };
 
