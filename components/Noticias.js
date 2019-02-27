@@ -1,6 +1,15 @@
-const Noticias = () => {
+import Noticia from './Noticia';
+
+const Noticias = (props) => {
     return (
-        <p>desde noticias</p>
+        <div className="row">
+            {props.noticias.map(noticia => (
+                <Noticia
+                    key={noticia.url}
+                    noticia={noticia}
+                />
+            ))}
+        </div>
     )
 };
 

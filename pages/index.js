@@ -34,7 +34,7 @@ Index.getInitialProps = async () => {
 
     return {
         precioBitcoin: resPrecio.data.quotes.USD,
-        noticias: resNoticias
+        noticias: resNoticias.articles
     }
 };
 
