@@ -1,6 +1,7 @@
 import MasterPage from "../components/Master";
 import fetch from 'isomorphic-unfetch';
 import Precio from "../components/Precio";
+import Noticias from "../components/Noticias";
 
 const Index = (props) => (
     <MasterPage>
@@ -13,6 +14,9 @@ const Index = (props) => (
             </div>
             <div className="col-md-8">
                 <h2>Noticias sobre Bitcoin</h2>
+                <Noticias
+                    noticias={props.noticias}
+                />
             </div>
             <div className="col-md-4">
                 <h2>Próximos Eventos Bitcoin</h2>
@@ -23,11 +27,14 @@ const Index = (props) => (
 
 Index.getInitialProps = async () => {
     const precio = await fetch('https://api.coinmarketcap.com/v2/ticker/1/');
+    const noticias = await fetch('https://newsapi.org/v2/everything?q=bitcoin&from=2019-01-27&sortBy=publishedAt&apiKey=cedad511f5ba4da4b074c3ce57f58456');
 
     const resPrecio = await precio.json();
+    const resNoticias = await noticias.json();
 
     return {
-        precioBitcoin: resPrecio.data.quotes.USD
+        precioBitcoin: resPrecio.data.quotes.USD,
+        noticias: resNoticias
     }
 };
 
